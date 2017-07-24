@@ -1,0 +1,13 @@
+{
+	"name": "Cloudant Trigger",
+	"description": "When a cloudant DB has a new data item added, log the change in the console.",
+	"icon": "node_cloudant_icon.png",
+	"source": {
+		"scmType": "git",
+		"url": "https://github.ibm.com/openwhisk-blueprints/owbp-cloudant-trigger",
+	},
+	"runtime": {
+		"name": "SDK for Node.js™"
+	},
+	"categories": ["nodejs", "cloudant"]
+}
