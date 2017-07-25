@@ -6,8 +6,11 @@
 		"scmType": "git",
 		"url": "https://github.ibm.com/openwhisk-blueprints/owbp-cloudant-trigger",
 	},
-	"runtime": {
-		"name": "SDK for Node.js™"
-	},
+	"runtimes": [
+		{
+			"name": "Node.js 6",
+			"kind": "nodejs:6"
+		}
+	],
 	"categories": ["nodejs", "cloudant"]
 }
