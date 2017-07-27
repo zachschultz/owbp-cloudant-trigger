@@ -38,7 +38,7 @@ package:
         # Action named "process-change"
         # Creating action that is printing data which is written to the database
         process-change:
-            location: https://raw.githubusercontent.com/IBM/openwhisk-cloudant-trigger/master/wskdeploy/actions/process-change.js
+            location: actions/process-change.js
 
     sequences:
         # Sequence named "process-change-cloudant-sequence"
