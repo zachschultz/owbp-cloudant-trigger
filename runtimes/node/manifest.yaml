@@ -38,7 +38,7 @@ package:
         # Action named "process-change"
         # Creating action that is printing data which is written to the database
         process-change:
-            location: runtimes/{{ runtime }}/actions/process-change.{{ runtime_extension }}
+            location: actions/process-change.js
 
     sequences:
         # Sequence named "process-change-cloudant-sequence"
