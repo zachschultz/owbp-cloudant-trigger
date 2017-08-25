@@ -1,16 +1,15 @@
 {
-	"name": "Cloudant Trigger",
-	"description": "When a cloudant DB has a new data item added, log the change in the console.",
-	"icon": "node_cloudant_icon.png",
-	"source": {
-		"scmType": "git",
-		"url": "https://github.ibm.com/openwhisk-blueprints/owbp-cloudant-trigger",
-	},
-	"runtimes": [
-		{
-			"name": "Node.js 6",
-			"kind": "nodejs:6"
-		}
-	],
-	"categories": ["nodejs", "cloudant"]
+	"name": "New Cloudant Item",
+	"description": "When a cloudant DB has a data item edited or added, log the change in the console.",
+  "long_description": "This blueprint will create a sequence that reacts to changes in the connected cloudant DB, which should be a database of cats.  The expected data item is a cat, with a name and a color defined.  When a new cat is added to the database, or a current cat edited, the data will be logged to the console.",
+  "url": "https://github.com/zachschultz/owbp-cloudant-trigger",
+	"runtime": {
+    "name": "Node.js 6",
+    "kind": "nodejs:6",
+    "type": "node"
+  },
+	"categories": [
+    "nodejs",
+    "cloudant"
+  ]
 }
