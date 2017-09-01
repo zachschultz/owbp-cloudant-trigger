@@ -50,4 +50,4 @@ package:
         # Creating rule that maps database change trigger to sequence
         log-change-rule:
             trigger: data-inserted-trigger
-            action: cloudant-trigger/process-change-cloudant-sequence
+            action: process-change-cloudant-sequence
